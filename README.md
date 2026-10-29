@@ -97,12 +97,4 @@ The experiments show that model selection involves a trade-off between identifyi
 
 The results highlight the importance of using appropriate evaluation metrics rather than relying solely on accuracy.
 
-## 7. Limitations
-
-- The `V1`–`V28` features are anonymized PCA-derived variables, limiting direct interpretation of their original financial meaning.
-- The dataset contains a very small proportion of fraudulent transactions.
-- Duplicate records were identified but not removed in the reported experiments.
-- Results were obtained using a stratified random split; performance on future transactions may differ.
-- This project is an educational machine learning prototype, not a production-ready financial fraud detection service.
-
 ---
